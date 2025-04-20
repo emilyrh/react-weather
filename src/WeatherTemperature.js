@@ -1,4 +1,3 @@
-import { eventWrapper } from "@testing-library/user-event/dist/utils";
 import React, { useState } from "react";
 
 export default function WeatherTemperature(props) {
@@ -22,7 +21,7 @@ export default function WeatherTemperature(props) {
         <span className="temperature">{Math.round(props.celsius)}</span>
         <span className="unit">
           ºC |{" "}
-          <a href="" onClick={showFahrenheit}>
+          <a href="/" onClick={showFahrenheit}>
             ºF
           </a>
         </span>
@@ -34,7 +33,7 @@ export default function WeatherTemperature(props) {
         <span className="temperature">{Math.round(fahrenheit())}</span>
         <span className="unit">
           ºF |{" "}
-          <a href="" onClick={showCelsius}>
+          <a href="/" onClick={showCelsius}>
             ºC
           </a>
         </span>
