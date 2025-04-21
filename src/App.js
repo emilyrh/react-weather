@@ -23,6 +23,14 @@ export default function App() {
             rel="noopener noreferrer"
           >
             open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://illustrious-cupcake-077d45.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
           </a>
         </footer>
       </div>
